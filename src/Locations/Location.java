@@ -1,4 +1,5 @@
-package Abstract;
+package Locations;
 
 public class Location {
+
 }

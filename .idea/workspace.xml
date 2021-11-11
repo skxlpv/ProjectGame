@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a55719a5-eb29-4688-a1e7-607c5468af6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Abstract/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Alive/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NotAlive/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Choise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/Narrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Alive/Creature.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alive/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alive/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +44,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../КОД/JAVAPROJECT" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MyGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +72,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1234" height="226" key="GridCell.Tab.0.bottom" timestamp="1636661845131">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1234" height="226" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1636661845131" />
+    <state width="1234" height="226" key="GridCell.Tab.0.center" timestamp="1636661845130">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1234" height="226" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1636661845130" />
+    <state width="1234" height="226" key="GridCell.Tab.0.left" timestamp="1636661845130">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1234" height="226" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1636661845130" />
+    <state width="1234" height="226" key="GridCell.Tab.0.right" timestamp="1636661845130">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1234" height="226" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1636661845130" />
     <state x="231" y="111" key="Vcs.Push.Dialog.v2" timestamp="1636657804889">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
