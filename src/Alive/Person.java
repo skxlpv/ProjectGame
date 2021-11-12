@@ -5,7 +5,7 @@ import Abstract.State;
 public class Person {
     State s = new State();
 
-    String name;
+    public String name;
 //_________________________________________
 
     public Person(){}
