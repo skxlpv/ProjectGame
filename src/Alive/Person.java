@@ -8,11 +8,11 @@ public class Person {
     public String name;
 //_________________________________________
 
-    public Person(){}
-    Person(String name, int countOfLives, int fear){
-        this.name = name;
-        s.lives = countOfLives;
-        s.fear = fear;
-    }
+//    public Person(){}
+//    Person(String name, int countOfLives, int fear){
+//        this.name = name;
+//        s.lives = countOfLives;
+//        s.fear = fear;
+//    }
 
 }
