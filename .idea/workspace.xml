@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a55719a5-eb29-4688-a1e7-607c5468af6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/rsc/maps/map01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyGame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Creature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyGame/Alive/Entity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyGame/Alive/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyGame/GameInterface/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyGame/GameInterface/GamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyGame/SystemChecks/CheckInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alive/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alive/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alive/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alive/Entity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Alive/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alive/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameInterface/Font.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameInterface/GameLabel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameInterface/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameInterface/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemChecks/CheckInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SystemChecks/CheckInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locations/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotAlive/Bag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SystemChecks/CheckInput.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyGame\src\rsc\maps" />
       <recent name="D:\MyGame\src" />
     </key>
   </component>
@@ -93,22 +99,22 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="435" y="263" width="409" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1636725984299" />
-    <state width="1234" height="225" key="GridCell.Tab.0.bottom" timestamp="1636746583476">
+    <state width="1234" height="224" key="GridCell.Tab.0.bottom" timestamp="1636753081216">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1234" height="225" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1636746583476" />
-    <state width="1234" height="225" key="GridCell.Tab.0.center" timestamp="1636746583476">
+    <state width="1234" height="224" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1636753081216" />
+    <state width="1234" height="224" key="GridCell.Tab.0.center" timestamp="1636753081215">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1234" height="225" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1636746583476" />
-    <state width="1234" height="225" key="GridCell.Tab.0.left" timestamp="1636746583476">
+    <state width="1234" height="224" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1636753081215" />
+    <state width="1234" height="224" key="GridCell.Tab.0.left" timestamp="1636753081214">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1234" height="225" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1636746583476" />
-    <state width="1234" height="225" key="GridCell.Tab.0.right" timestamp="1636746583476">
+    <state width="1234" height="224" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1636753081214" />
+    <state width="1234" height="224" key="GridCell.Tab.0.right" timestamp="1636753081216">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1234" height="225" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1636746583476" />
+    <state width="1234" height="224" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1636753081216" />
     <state width="1234" height="229" key="GridCell.Tab.1.bottom" timestamp="1636737663530">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
