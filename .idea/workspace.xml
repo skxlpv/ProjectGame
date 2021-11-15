@@ -2,21 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a55719a5-eb29-4688-a1e7-607c5468af6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rsc/maps/map01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyGame/Alive/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyGame/Alive/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyGame/GameInterface/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyGame/GameInterface/GamePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alive/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alive/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Alive/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Alive/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameInterface/Font.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameInterface/GameLabel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameInterface/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameInterface/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locations/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotAlive/Bag.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SystemChecks/CheckInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Abstract/Choise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Abstract/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Abstract/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Abstract/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Abstract/Narrator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Abstract/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/Alive/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/GameInterface/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/GameInterface/KeyHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/GameInterface/Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/META-INF/MyGame.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/up1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/PersonSprites/up2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/maps/map01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/up1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/PersonSprites/up2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/maps/map01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/tiles/dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/tiles/stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/rsc/tiles/water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/tile/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/tile/TileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/tiles/dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/tiles/stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyGame/tiles/water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Choise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/Narrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Abstract/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alive/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alive/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameInterface/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameInterface/KeyHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameInterface/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/down1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/down2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/down3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/up1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/PersonSprites/up2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/maps/map01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/tiles/dirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/tiles/stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rsc/tiles/water.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +94,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../КОД/JAVAPROJECT" />
@@ -61,7 +113,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstract.Game" />
+      <option name="MAIN_CLASS_NAME" value="Game" />
       <module name="MyGame" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,6 +125,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,58 +139,16 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="93" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636733295495">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="93" y="33" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1636733295495" />
-    <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser" timestamp="1636735938471">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1636735938471" />
-    <state x="435" y="263" width="409" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1636725984299">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="435" y="263" width="409" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.760@0.0.1280.760" timestamp="1636725984299" />
-    <state width="1234" height="224" key="GridCell.Tab.0.bottom" timestamp="1636753081216">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="224" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1636753081216" />
-    <state width="1234" height="224" key="GridCell.Tab.0.center" timestamp="1636753081215">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="224" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1636753081215" />
-    <state width="1234" height="224" key="GridCell.Tab.0.left" timestamp="1636753081214">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="224" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1636753081214" />
-    <state width="1234" height="224" key="GridCell.Tab.0.right" timestamp="1636753081216">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="224" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1636753081216" />
-    <state width="1234" height="229" key="GridCell.Tab.1.bottom" timestamp="1636737663530">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="229" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1636737663530" />
-    <state width="1234" height="229" key="GridCell.Tab.1.center" timestamp="1636737663529">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="229" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1636737663529" />
-    <state width="1234" height="229" key="GridCell.Tab.1.left" timestamp="1636737663529">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="229" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1636737663529" />
-    <state width="1234" height="229" key="GridCell.Tab.1.right" timestamp="1636737663529">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state width="1234" height="229" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1636737663529" />
-    <state x="119" y="0" key="SettingsEditor" timestamp="1636746034137">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="119" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1636746034137" />
-    <state x="231" y="111" key="Vcs.Push.Dialog.v2" timestamp="1636657804889">
-      <screen x="0" y="0" width="1280" height="760" />
-    </state>
-    <state x="231" y="111" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1636657804889" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
